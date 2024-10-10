@@ -4,10 +4,13 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
 import { educations } from "../constants";
 import { arrow } from "../assets/icons";
+import { VerticalTimeline } from "react-vertical-timeline-component";
 
 const Educations = () => {
   return (
     <section className="max-container">
+      <VerticalTimeline></VerticalTimeline>
+
       <h1 className="head-text">
         <span className="blue-gradient_text drop-shadow font-semibold">
           Educations

@@ -181,3 +181,41 @@ body:has(.card[data-color="green"]:hover) {
   box-shadow: 0.6vmin 0.6vmin #fff, 1vmin 1vmin #d2e4ff, 1vmin 1vmin #d2e4ff,
     0.65vmin 1vmin #d2e4ff, 1vmin 0.65vmin #d2e4ff;
 }
+
+/* ==================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap");
+
+.text-shpere {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tagcloud {
+  display: inline-block;
+  top: 0;
+  left: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.0625em;
+  font-size: 1.1em;
+}
+
+/* Change color of each text in sphere on hover   */
+.tagcloud--item {
+  color: rgb(61, 185, 207);
+  text-transform: uppercase;
+  transition: color 0.3s;
+  transition: font-size 0.3s;
+}
+
+.tagcloud--item:hover {
+  color: #db0ea8;
+  cursor: pointer;
+  font-size: 1.2em;
+}

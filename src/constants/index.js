@@ -273,13 +273,13 @@ export const projects = [
     id: "cloneIphone15",
     iconUrl: apple,
     theme: "btn-back-blue",
-    name: "Clone iPhone 15 pro Website",
+    name: "Landing page iPhone 15 pro",
     description:
       "Ongoing project where I am going to clone iPhone 15 pro web page to show case my skill for my fortfolio.",
 
     more: "Built using React js, Three js, Framer Motion, and Tailwind CSS",
     projectLink: "",
-    link: "https://github.com/mdMehediBillah/PokeFight-Gr2",
+    link: "https://github.com/mdMehediBillah/iPhone15",
   },
 ];
 

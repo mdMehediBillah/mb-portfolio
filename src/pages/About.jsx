@@ -3,7 +3,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 
-import { CTA } from "../components";
+import { CTA, TextShpere } from "../components";
 import { experiences, skills } from "../constants";
 
 import "react-vertical-timeline-component/style.min.css";
@@ -34,9 +34,9 @@ const About = () => {
           Resume
         </span>
       </a>
-
       <div className="py-10 flex flex-col">
         <h3 className="subhead-text">My Skills</h3>
+        <TextShpere />
 
         <div className="mt-16 flex flex-wrap gap-12">
           {skills.map((skill) => (
