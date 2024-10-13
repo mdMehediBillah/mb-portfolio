@@ -12,6 +12,7 @@ import {
   Projects,
 } from "./pages";
 import CloneApple15 from "./pages/CloneApple15";
+import HomeTwo from "./pages/HomeTwo";
 
 const App = () => {
   return (
@@ -19,7 +20,7 @@ const App = () => {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<HomeTwo />} />
           <Route
             path="/*"
             element={

@@ -219,3 +219,8 @@ body:has(.card[data-color="green"]:hover) {
   cursor: pointer;
   font-size: 1.2em;
 }
+
+canvas {
+  height: 100vh;
+  width: 100vw;
+}
