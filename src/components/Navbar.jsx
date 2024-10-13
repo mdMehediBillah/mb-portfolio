@@ -14,7 +14,9 @@ const Navbar = () => {
         <NavLink
           to="/about"
           className={({ isActive }) =>
-            isActive ? "text-blue-600" : "text-black"
+            isActive
+              ? "text-blue-600 hover:text-orange-600"
+              : "text-gray-600 hover:text-orange-600"
           }
         >
           About
@@ -22,7 +24,9 @@ const Navbar = () => {
         <NavLink
           to="/projects"
           className={({ isActive }) =>
-            isActive ? "text-blue-600" : "text-black"
+            isActive
+              ? "text-blue-600 hover:text-orange-600"
+              : "text-gray-600 hover:text-orange-600"
           }
         >
           Projects
@@ -31,7 +35,9 @@ const Navbar = () => {
         <NavLink
           to="/contact"
           className={({ isActive }) =>
-            isActive ? "text-blue-600" : "text-black"
+            isActive
+              ? "text-blue-600 hover:text-orange-600"
+              : "text-gray-600 hover:text-orange-600"
           }
         >
           Contact
