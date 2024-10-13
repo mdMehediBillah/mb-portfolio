@@ -9,11 +9,18 @@ import {
   Text,
 } from "@react-three/drei";
 import Computer from "../../public/Computer";
+import { Island } from "../models";
 import { degToRad } from "three/src/math/MathUtils.js";
 import { useEffect, useRef } from "react";
 import { useFrame } from "@react-three/fiber";
 import gsap from "gsap";
+import { Color } from "three";
 // import { currentPageAtom } from "./UI";
+
+const bloomColor = new Color("#fff");
+bloomColor.multiplyScalar(1.5);
+// ======================================
+//  ComputerHome component
 
 const ComputerHome = () => {
   const controls = useRef();
@@ -78,7 +85,7 @@ const ComputerHome = () => {
         autoRotateSpeed={1.0}
       />
       <mesh position={[0, 80, 0]} ref={meshFitCameraHome} visible={false}>
-        <boxGeometry args={[500, 100, 100]} />
+        <boxGeometry args={[450, 100, 100]} />
         <meshBasicMaterial color="orange" transparent opacity={0.5} />
       </mesh>
 
@@ -95,9 +102,17 @@ const ComputerHome = () => {
         ref={textRef}
       >
         WELCOME{"\n"}PORTFOLIO
-        <meshBasicMaterial color="white">
+        <meshBasicMaterial color={bloomColor}>
           <RenderTexture attach="map">
             <color attach="background" args={["lightgray"]} />
+            <Float floatIntensity={4} rotationIntensity={5}>
+              <Island
+                scale={10}
+                rotation-y={-degToRad(25)}
+                rotation-x={degToRad(40)}
+                position-y={-0.5}
+              />
+            </Float>
             <Environment preset="sunset" />
           </RenderTexture>
         </meshBasicMaterial>

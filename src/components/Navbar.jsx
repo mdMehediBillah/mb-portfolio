@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <header className="header">
       <NavLink to="/">
-        <span className="w-18 h-18 object-contain bg-gray-100 px-3 py-1 rounded font-semibold text-rose-600 text-xl">
+        <span className="w-18 h-18 object-contain px-3 py-1 rounded font-semibold text-rose-600 text-xl ">
           Billah
         </span>
       </NavLink>
