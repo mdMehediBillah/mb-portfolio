@@ -128,7 +128,7 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "Freelance UX/UI Engineer",
+    title: "Freelance Full Stack Developer",
     company_name: "Cologne, Germany",
     icon: logo,
     iconBg: "#fcdc9f",
@@ -179,6 +179,18 @@ export const experiences = [
       "Collaborating with cross-functional teams including QA, studio managers, and other photographer to produce high-quality products.",
       "Maintained studio equipment and kept them in good condition.",
       "Used Adobe Lightroom and Photoshop to edit photos.",
+    ],
+  },
+  {
+    title: "3D Artist",
+    company_name: "Align Technology, Cologne",
+    icon: threads,
+    iconBg: "#57c4e6",
+    date: "March 2018 - December 2018",
+    points: [
+      "Produced best quality 3D Product which were better fit for industry and Business.",
+      "Collaborating with cross-functional teams including Doctors, managers, and other 3D Designers to produce high-quality products.",
+      "Used 3D Mouse and customised 3D software called Treat.",
     ],
   },
   {

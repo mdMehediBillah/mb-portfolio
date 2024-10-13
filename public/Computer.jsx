@@ -41,15 +41,6 @@ const Computer = (props) => {
         />
       </mesh>
 
-      {/* <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Paper2_ComputerDesk_0.geometry}
-        material={materials.ComputerDesk}
-        position={[76.15, 75.001, 39.723]}
-        rotation={[0, 0.031, 0]}
-        scale={0.1}
-      /> */}
       {/* Cable black */}
       <mesh
         castShadow
@@ -65,14 +56,6 @@ const Computer = (props) => {
         />
       </mesh>
 
-      {/* <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Monitor_cable_ComputerDesk_0.geometry}
-        material={materials.ComputerDesk}
-        position={[-3.9, 74.815, 28.04]}
-      /> */}
-      {/* cable speaker */}
       <mesh
         castShadow
         receiveShadow
@@ -95,13 +78,6 @@ const Computer = (props) => {
         />
       </mesh>
 
-      {/* <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Mouse_cord_ComputerDesk_0.geometry}
-        material={materials.ComputerDesk}
-        position={[34.329, 76.164, 56.062]}
-      /> */}
       {/* CD top ot the table */}
       <mesh
         castShadow
@@ -119,15 +95,6 @@ const Computer = (props) => {
         />
       </mesh>
 
-      {/* <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.CD_ComputerDesk_0.geometry}
-        material={materials.ComputerDesk}
-        position={[-76.997, 75.076, 57.333]}
-        rotation={[-Math.PI, 1.261, -Math.PI]}
-        scale={0.1}
-      /> */}
       {/* side drawer */}
       {/* Side drawer with wooden texture */}
       <mesh
@@ -137,13 +104,6 @@ const Computer = (props) => {
         material={woodenMaterial} // Use the wooden material here
         position={[65.098, 0, 55.308]}
       />
-      {/* <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Drawers_ComputerDesk_0.geometry}
-        material={materials.ComputerDesk}
-        position={[65.098, 0, 55.308]}
-      /> */}
 
       {/* Phone body */}
       <mesh
@@ -179,24 +139,6 @@ const Computer = (props) => {
       </mesh>
 
       {/* Phone body */}
-      {/* <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Phone_stand_ComputerDesk_0.geometry}
-        material={materials.ComputerDesk}
-        position={[50.705, 74.815, 18.869]}
-        rotation={[0, -0.193, 0]}
-      /> */}
-      {/* Phone receiver */}
-      {/* <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Phonehandle_ComputerDesk_0.geometry}
-        material={materials.ComputerDesk}
-        position={[46.949, 79.24, 18.508]}
-        rotation={[0.167, -0.19, 0.032]}
-        scale={0.263}
-      /> */}
 
       {/* CD case */}
       <mesh
@@ -215,15 +157,6 @@ const Computer = (props) => {
         />
       </mesh>
 
-      {/* <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.CD_case_ComputerDesk_0.geometry}
-        material={materials.ComputerDesk}
-        position={[-76.997, 75.356, 57.333]}
-        rotation={[-Math.PI, 1.261, -Math.PI]}
-        scale={0.064}
-      /> */}
       {/* Pen */}
       <mesh
         castShadow
@@ -269,15 +202,6 @@ const Computer = (props) => {
         />
       </mesh>
 
-      {/* KeyBoard */}
-      {/* <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Keyboard_ComputerDesk_0.geometry}
-        material={materials.ComputerDesk}
-        position={[-3.76, 74.815, 55.898]}
-        scale={0.305}
-      /> */}
       <mesh
         castShadow
         receiveShadow
@@ -313,15 +237,6 @@ const Computer = (props) => {
         />
       </mesh>
 
-      {/* <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Mousepad_ComputerDesk_0.geometry}
-        material={materials.ComputerDesk}
-        position={[42.964, 74.815, 54.261]}
-        rotation={[0, -0.115, 0]}
-        scale={0.149}
-      /> */}
       {/* Mouse */}
       <mesh
         castShadow
@@ -363,17 +278,6 @@ const Computer = (props) => {
         />
       </mesh>
 
-      {/* CPU */}
-      {/* <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Computer_case_ComputerDesk_0.geometry}
-        material={materials.ComputerDesk}
-        position={[-55.078, 74.815, 31.19]}
-        rotation={[0, 0.036, 0]}
-        scale={0.229}
-      /> */}
-
       <mesh
         castShadow
         receiveShadow
@@ -388,13 +292,7 @@ const Computer = (props) => {
         />
       </mesh>
       {/* Table top */}
-      {/* <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Office_desk_ComputerDesk_0.geometry}
-        material={materials.ComputerDesk}
-        scale={0.271}
-      /> */}
+
       {/* Chair */}
       <mesh
         castShadow
@@ -412,15 +310,7 @@ const Computer = (props) => {
         />
       </mesh>
       {/* Chair
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Cube000_ComputerDesk_0.geometry}
-        material={materials.ComputerDesk}
-        position={[10.874, 0, 115.729]}
-        rotation={[0, 0.58, 0]}
-        scale={0.394}
-      /> */}
+
 
       {/* Computer Monitor */}
       <mesh
@@ -430,6 +320,15 @@ const Computer = (props) => {
         position={[-3.9, 74.815, 28.04]}
         scale={[0.192, 0.144, 0.096]}
       >
+        <meshStandardMaterial
+          attach="material"
+          color="#142038" // Set the monitor color to black
+          roughness={0.2} // Slightly rough for a matte finish
+          metalness={0.1} // Add a bit of metallic feel for the frame
+        />
+      </mesh>
+      <mesh position={[-3.9, 98, 38]} rotation-x={-0.15}>
+        <boxGeometry args={[30, 24, 4]} />
         <meshStandardMaterial
           attach="material"
           color="#142038" // Set the monitor color to black
