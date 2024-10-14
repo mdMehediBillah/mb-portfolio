@@ -311,7 +311,6 @@ const Computer = (props) => {
       </mesh>
       {/* Chair
 
-
       {/* Computer Monitor */}
       <mesh
         castShadow

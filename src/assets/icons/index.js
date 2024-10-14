@@ -41,6 +41,8 @@ import education from "./education.svg";
 import wbs from "./wbs.png";
 import pokeball from "./pokeball.svg";
 import apple from "./apple.svg";
+import gsap from "./gsap.svg";
+import three from "./three.svg";
 
 export {
   css,
@@ -86,4 +88,6 @@ export {
   wbs,
   pokeball,
   apple,
+  gsap,
+  three,
 };
