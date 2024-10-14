@@ -76,14 +76,14 @@ const Contact = () => {
       {alert.show && <Alert {...alert} />}
 
       <div className="flex-1 min-w-[50%] flex flex-col">
-        <h1 className="head-text">Get in Touch</h1>
+        <h1 className="head-text blue-gradient_text">Get in Touch</h1>
 
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className="w-full flex flex-col gap-7 mt-14"
+          className="w-full flex flex-col gap-7 mt-14 bg-slate-600 px-4 py-4 rounded-md shadow-lg"
         >
-          <label className="text-black-500 font-semibold">
+          <label className="text-slate-300 font-semibold">
             Name
             <input
               type="text"
@@ -97,7 +97,7 @@ const Contact = () => {
               onBlur={handleBlur}
             />
           </label>
-          <label className="text-black-500 font-semibold">
+          <label className="text-slate-300 font-semibold">
             Email
             <input
               type="email"
@@ -111,7 +111,7 @@ const Contact = () => {
               onBlur={handleBlur}
             />
           </label>
-          <label className="text-black-500 font-semibold">
+          <label className="text-slate-300 font-semibold">
             Your Message
             <textarea
               name="message"

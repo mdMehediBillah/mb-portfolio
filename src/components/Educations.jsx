@@ -17,7 +17,7 @@ const Educations = () => {
         </span>
       </h1>
 
-      <p className="text-slate-500 mt-2 leading-relaxed">
+      <p className="text-slate-300 mt-2 leading-relaxed">
         Education is the passport to the future, for tomorrow belongs to those
         who prepare for it today. Here are some of the educations I have
         completed.
@@ -45,18 +45,18 @@ const Educations = () => {
                   speed: 500,
                   perspective: 1000,
                 }} // Added perspective for 3D effect
-                className="mt-5 flex flex-col bg-white hover:shadow-lg transition-shadow duration-300 rounded-lg p-4"
+                className="mt-5 flex flex-col bg-slate-200 hover:shadow-lg transition-shadow duration-300 rounded-lg px-4 py-6"
               >
-                <h4 className="text-2xl font-poppins font-semibold">
+                <h4 className="text-2xl font-poppins font-semibold text-blue-500">
                   {education.degree}
                 </h4>
-                <p className="mt-2 text-slate-500">{education.uni}</p>
-                <p className="mt-2 text-slate-500">{education.date}</p>
+                <p className="mt-2 text-slate-800">{education.uni}</p>
+                <p className="mt-2 text-slate-800">{education.date}</p>
                 <ul className="my-5 list-disc ml-5 space-y-2">
                   {education.points?.map((point, index) => (
                     <li
                       key={`education-point-${index}`}
-                      className="text-black-500/50 font-normal pl-1 text-sm"
+                      className="text-slate-800 font-normal pl-1 text-sm"
                     >
                       {point}
                     </li>

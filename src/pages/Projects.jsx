@@ -16,7 +16,7 @@ const Projects = () => {
         </span>
       </h1>
 
-      <p className="text-slate-500 mt-2 leading-relaxed">
+      <p className="text-slate-300 mt-2 leading-relaxed">
         I've embarked on numerous projects throughout the years, but these are
         the ones I hold closest to my heart. Many of them are open-source, so if
         you come across something that piques your interest, feel free to
@@ -46,13 +46,13 @@ const Projects = () => {
                   speed: 500,
                   perspective: 1000,
                 }} // Added perspective for 3D effect
-                className="mt-5 flex flex-col bg-white hover:shadow-lg transition-shadow duration-300 rounded-lg p-4"
+                className="mt-5 flex flex-col bg-gray-300 hover:shadow-lg transition-shadow duration-300 rounded-lg py-4 px-6"
               >
-                <h4 className="text-2xl font-poppins font-semibold">
+                <h4 className="text-2xl font-poppins font-semibold text-blue-600">
                   {project.name}
                 </h4>
-                <p className="mt-2 text-slate-500">{project.description}</p>
-                <p className="mt-2 text-slate-500">{project.more}</p>
+                <p className="mt-2 text-slate-800">{project.description}</p>
+                <p className="mt-2 text-slate-800">{project.more}</p>
               </Tilt>
 
               <div className="mt-5 flex items-center gap-2 font-poppins">
