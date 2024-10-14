@@ -15,8 +15,8 @@ const Navbar = () => {
           to="/about"
           className={({ isActive }) =>
             isActive
-              ? "text-blue-600 hover:text-orange-600"
-              : "text-gray-500 hover:text-orange-600"
+              ? "text-yellow-400 hover:text-orange-600 border-b-2 border-yellow-500"
+              : "text-blue-400 hover:text-orange-600"
           }
         >
           About
@@ -25,8 +25,8 @@ const Navbar = () => {
           to="/projects"
           className={({ isActive }) =>
             isActive
-              ? "text-blue-600 hover:text-orange-600"
-              : "text-gray-500 hover:text-orange-600"
+              ? "text-yellow-400 hover:text-orange-600 border-b-2 border-yellow-500"
+              : "text-blue-400 hover:text-orange-600"
           }
         >
           Projects
@@ -36,8 +36,8 @@ const Navbar = () => {
           to="/contact"
           className={({ isActive }) =>
             isActive
-              ? "text-blue-600 hover:text-orange-600"
-              : "text-gray-500 hover:text-orange-600"
+              ? "text-yellow-400 hover:text-orange-600 border-b-2 border-yellow-500"
+              : "text-blue-400 hover:text-orange-600"
           }
         >
           Contact
