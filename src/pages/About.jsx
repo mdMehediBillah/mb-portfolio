@@ -35,7 +35,7 @@ const About = () => {
         </span>
       </a>
       <div className="pt-10 flex flex-col">
-        <h3 className="subhead-text">My Skills</h3>
+        <h3 className="head-text blue-gradient_text">My Skills</h3>
         <TextShpere />
 
         <div className="mt-4 flex flex-wrap gap-12">
@@ -56,7 +56,7 @@ const About = () => {
       </div>
 
       <div className="py-16">
-        <h3 className="subhead-text">Work Experience.</h3>
+        <h3 className="head-text blue-gradient_text">Work Experience.</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-300">
           <p>
             I've worked with all sorts of companies, leveling up my skills and

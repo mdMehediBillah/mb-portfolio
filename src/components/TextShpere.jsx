@@ -72,7 +72,7 @@ const TextShpere = () => {
   }, []); // Empty dependency array ensures this runs only once
 
   return (
-    <div className="text-shpere">
+    <div className="text-shpere py-4">
       <span className="tagcloud"></span>
     </div>
   );
