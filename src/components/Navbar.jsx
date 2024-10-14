@@ -16,7 +16,7 @@ const Navbar = () => {
           className={({ isActive }) =>
             isActive
               ? "text-blue-600 hover:text-orange-600"
-              : "text-gray-600 hover:text-orange-600"
+              : "text-gray-500 hover:text-orange-600"
           }
         >
           About
@@ -26,7 +26,7 @@ const Navbar = () => {
           className={({ isActive }) =>
             isActive
               ? "text-blue-600 hover:text-orange-600"
-              : "text-gray-600 hover:text-orange-600"
+              : "text-gray-500 hover:text-orange-600"
           }
         >
           Projects
@@ -37,7 +37,7 @@ const Navbar = () => {
           className={({ isActive }) =>
             isActive
               ? "text-blue-600 hover:text-orange-600"
-              : "text-gray-600 hover:text-orange-600"
+              : "text-gray-500 hover:text-orange-600"
           }
         >
           Contact

@@ -4,11 +4,13 @@ import {
   Float,
   Html,
   MeshReflectorMaterial,
+  OrbitControls,
   PerspectiveCamera,
   RenderTexture,
   Text,
 } from "@react-three/drei";
 import Computer from "../../public/Computer";
+import Laptop from "../../public/Laptop";
 import { Island } from "../models";
 import { degToRad } from "three/src/math/MathUtils.js";
 import { useEffect, useRef } from "react";
@@ -85,7 +87,7 @@ const ComputerHome = () => {
         autoRotateSpeed={1.0}
       />
       <mesh position={[0, 80, 0]} ref={meshFitCameraHome} visible={false}>
-        <boxGeometry args={[450, 100, 100]} />
+        <boxGeometry args={[250, 50, 280]} />
         <meshBasicMaterial color="orange" transparent opacity={0.5} />
       </mesh>
 
@@ -96,12 +98,12 @@ const ComputerHome = () => {
         position-z={-50}
         lineHeight={0.8}
         textAlign="center"
-        fontSize={50}
+        fontSize={35}
         rotation-y={degToRad(25)}
         anchorY={"bottom"}
         ref={textRef}
       >
-        WELCOME{"\n"}PORTFOLIO
+        MEHEDI{"\n"}BILLAH'S{"\n"}PORTFOLIO
         <meshBasicMaterial color={bloomColor}>
           <RenderTexture attach="map">
             <color attach="background" args={["lightgray"]} />
@@ -118,15 +120,25 @@ const ComputerHome = () => {
         </meshBasicMaterial>
       </Text>
 
-      <group rotation-y={degToRad(-25)} position-x={150}>
-        <Computer />
-      </group>
+      <Float floatIntensity={1} rotationIntensity={2}>
+        <group
+          rotation-y={degToRad(-10)}
+          position-x={-1100}
+          position-z={-680}
+          position-y={-60}
+        >
+          {/* <Computer /> */}
 
-      <Environment preset="sunset" />
+          <Laptop scale={2} rotation-y={-degToRad(0.4)} />
+        </group>
+      </Float>
+      <OrbitControls />
+
+      <Environment preset="dawn" />
       <mesh
         rotation={[-Math.PI / 2, 0, 0]}
         position-y={(0, 1)}
-        scale={10}
+        scale={30}
         receiveShadow
       >
         <planeGeometry args={[170, 170]} />

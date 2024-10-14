@@ -39,13 +39,60 @@ import {
   wbs,
   pokeball,
   apple,
+  gsap,
+  three,
 } from "../assets/icons";
 
 export const skills = [
   {
+    imageUrl: javascript,
+    name: "JavaScript",
+    type: "Frontend",
+  },
+  {
+    imageUrl: react,
+    name: "React js",
+    type: "Frontend",
+  },
+  {
+    imageUrl: vue,
+    name: "Vue js",
+    type: "Frontend",
+  },
+  {
+    imageUrl: three,
+    name: "Three js",
+    type: "Frontend",
+  },
+  {
+    imageUrl: tailwindcss,
+    name: "Tailwind CSS",
+    type: "Frontend",
+  },
+  {
+    imageUrl: gsap,
+    name: "GSAP",
+    type: "Frontend",
+  },
+  {
+    imageUrl: motion,
+    name: "Motion",
+    type: "Animation",
+  },
+  {
+    imageUrl: html,
+    name: "HTML",
+    type: "Frontend",
+  },
+  {
     imageUrl: css,
     name: "CSS",
     type: "Frontend",
+  },
+  {
+    imageUrl: nodejs,
+    name: "Node.js",
+    type: "Backend",
   },
   {
     imageUrl: express,
@@ -62,51 +109,16 @@ export const skills = [
     name: "GitHub",
     type: "Version Control",
   },
-  {
-    imageUrl: html,
-    name: "HTML",
-    type: "Frontend",
-  },
-  {
-    imageUrl: javascript,
-    name: "JavaScript",
-    type: "Frontend",
-  },
+
   {
     imageUrl: mongodb,
     name: "MongoDB",
     type: "Database",
   },
-  {
-    imageUrl: motion,
-    name: "Motion",
-    type: "Animation",
-  },
 
-  {
-    imageUrl: nodejs,
-    name: "Node.js",
-    type: "Backend",
-  },
-  {
-    imageUrl: react,
-    name: "React",
-    type: "Frontend",
-  },
-  {
-    imageUrl: vue,
-    name: "vue",
-    type: "Frontend",
-  },
-
-  {
-    imageUrl: tailwindcss,
-    name: "Tailwind CSS",
-    type: "Frontend",
-  },
   {
     imageUrl: figma,
-    name: "figma",
+    name: "Figma",
     type: "Frontend",
   },
   {
@@ -116,12 +128,12 @@ export const skills = [
   },
   {
     imageUrl: cc,
-    name: "cc",
+    name: "Adobe cc",
     type: "Frontend",
   },
   {
     imageUrl: jira,
-    name: "jira",
+    name: "Jira",
     type: "Project Management",
   },
 ];
