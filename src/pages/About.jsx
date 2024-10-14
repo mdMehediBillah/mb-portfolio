@@ -22,7 +22,7 @@ const About = () => {
         👋
       </h1>
 
-      <div className="mt-5 flex flex-col gap-3 text-slate-500 mb-4">
+      <div className="mt-5 flex flex-col gap-3 text-slate-200 mb-4">
         <p>
           Fullstack web developer and UX/UI engineer based in Germany,
           specializing in technical education through hands-on learning and
@@ -30,7 +30,7 @@ const About = () => {
         </p>
       </div>
       <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
-        <span className=" bg-rose-100 py-2 px-3 rounded-lg shadow font-semibold text-gray-600 hover:underline hover:text-rose-500">
+        <span className=" bg-yellow-200 py-2 px-3 rounded-lg shadow font-semibold text-gray-600 hover:underline hover:text-rose-500">
           Resume
         </span>
       </a>
@@ -57,7 +57,7 @@ const About = () => {
 
       <div className="py-16">
         <h3 className="subhead-text">Work Experience.</h3>
-        <div className="mt-5 flex flex-col gap-3 text-slate-500">
+        <div className="mt-5 flex flex-col gap-3 text-slate-300">
           <p>
             I've worked with all sorts of companies, leveling up my skills and
             teaming up with smart people. Here's the rundown:
