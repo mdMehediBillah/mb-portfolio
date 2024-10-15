@@ -23,12 +23,12 @@ const Projects = () => {
         explore the codebase and contribute your ideas for further enhancements.
         Your collaboration is highly valued!
       </p>
-
+      {/* ${project.theme} */}
       <div className="flex flex-wrap my-20 gap-16">
         {projects.map((project, index) => (
           <div className="lg:w-[400px] w-full" key={project.name}>
             <div className="block-container w-12 h-12">
-              <div className={`btn-back rounded-xl ${project.theme}`} />
+              <div className={`btn-back rounded-xl `} />
               <div className="btn-front rounded-xl flex justify-center items-center">
                 <img
                   src={project.iconUrl}
@@ -55,23 +55,23 @@ const Projects = () => {
                 <p className="mt-2 text-slate-800">{project.more}</p>
               </Tilt>
 
-              <div className="mt-5 flex items-center gap-2 font-poppins">
-                <div className="bg-gray-100 py-1 px-3 rounded-lg shadow">
+              <div className="mt-2 flex items-center gap-1 font-poppins justify-between">
+                <div className="bg-rose-500 py-1 px-3 rounded-md shadow w-full text-center">
                   <Link
                     to={`/${project.id}`}
                     rel="noopener noreferrer"
-                    className="font-semibold text-gray-600 hover:underline"
+                    className="font-semibold text-slate-100 hover:underline"
                   >
                     Details
                   </Link>
                 </div>
 
-                <div className="bg-gray-100 py-1 px-3 rounded-lg shadow">
+                <div className="bg-slate-600 py-1 px-3 rounded-md shadow w-full text-center">
                   <Link
                     to={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-semibold text-blue-600 hover:underline"
+                    className="font-semibold text-slate-100 hover:underline"
                   >
                     GitHub
                   </Link>
