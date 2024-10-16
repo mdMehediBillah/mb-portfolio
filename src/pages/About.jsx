@@ -38,7 +38,7 @@ const About = () => {
         <h3 className="head-text blue-gradient_text">My Skills</h3>
         <TextShpere />
 
-        <div className="mt-4 flex flex-wrap gap-12">
+        <div className="mt-4 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 justify-between gap-8 ">
           {skills.map((skill) => (
             <div className="block-container w-20 h-20" key={skill.name}>
               <div className="btn-back rounded-xl" />
