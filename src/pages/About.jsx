@@ -22,15 +22,24 @@ const About = () => {
         👋
       </h1>
 
-      <div className="mt-5 flex flex-col gap-3 text-slate-200 mb-4">
+      <div className="mt-5 flex flex-col gap-3 text-slate-200 mb-8">
         <p>
           Fullstack web developer and UX/UI engineer based in Germany,
           specializing in technical education through hands-on learning and
-          building web applications.
+          building web applications. I'm passionate about making the web app
+          more accessible and inclusive for everyone. I'm also a big fan of
+          open-source and love to contribute to the community. Over 4 years of
+          experience in the tech industry, I've worked with all sorts of
+          companies, leveling up my skills and teaming up with smart people.
         </p>
       </div>
-      <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
-        <span className=" bg-yellow-200 py-2 px-3 rounded-lg shadow font-semibold text-gray-600 hover:underline hover:text-rose-500">
+      <a
+        href="/resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-6"
+      >
+        <span className=" bg-yellow-400 py-2 px-6 rounded-md  shadow font-semibold text-slate-800 hover:underline hover:text-slate-500">
           Resume
         </span>
       </a>
