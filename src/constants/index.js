@@ -251,17 +251,7 @@ export const projects = [
     projectLink: "",
     link: "https://github.com/mdMehediBillah/BookLook24",
   },
-  {
-    id: "meghna-store",
-    iconUrl: threads,
-    theme: "btn-back-green",
-    name: "Full Stack Meghna Store",
-    description:
-      "Developed a full-stack online store tailored for South-Asian people seeking different food options than those typically available in Europe. This demo project was built to showcase my skills for my portfolio. ",
-    more: "It was developed using Vue.js, Node.js, Express, and MongoDB, and includes a shopping cart feature that displays free shipping availability.",
-    projectLink: "",
-    link: "https://github.com/mdMehediBillah/Meghna-webStore",
-  },
+
   {
     id: "pokeFight",
     iconUrl: pokeball,
@@ -273,17 +263,40 @@ export const projects = [
     projectLink: "",
     link: "https://github.com/mdMehediBillah/PokeFight-Gr2",
   },
-
   {
-    iconUrl: snapgram,
-    theme: "btn-back-pink",
-    name: "Full Stack Doctor's Appointment App",
+    id: "cloneIphone15",
+    iconUrl: apple,
+    theme: "btn-back-blue",
+    name: "Landing page iPhone 15 pro",
     description:
-      "Ongoing project where user will see avability of Doctors appointment and they can book the appointment through the app. The app will send notification to the user and doctor. The app will also show the history of the appointment.",
-    more: "Using React.js, Node.js, Express, and MongoDB",
+      "The project is a clone of the iPhone 15 Pro landing page, showcasing the latest features of the phone. The project was built to showcase my skills for my portfolio.3D iPhone model was rendered using Three.js, and animations were implemented using GSAP.",
+
+    more: "The project was built using React.js, Three. js, GSAP and Tailwind CSS, and deployed on Vercel.",
     projectLink: "",
-    link: "https://github.com/adrianhajdin/social_media_app",
+    link: "https://github.com/mdMehediBillah/iPhone15",
   },
+  // {
+  //   id: "meghna-store",
+  //   iconUrl: threads,
+  //   theme: "btn-back-green",
+  //   name: "Full Stack Meghna Store",
+  //   description:
+  //     "Developed a full-stack online store tailored for South-Asian people seeking different food options than those typically available in Europe. This demo project was built to showcase my skills for my portfolio. ",
+  //   more: "It was developed using Vue.js, Node.js, Express, and MongoDB, and includes a shopping cart feature that displays free shipping availability.",
+  //   projectLink: "",
+  //   link: "https://github.com/mdMehediBillah/Meghna-webStore",
+  // },
+
+  // {
+  //   iconUrl: snapgram,
+  //   theme: "btn-back-pink",
+  //   name: "Full Stack Doctor's Appointment App",
+  //   description:
+  //     "Ongoing project where user will see avability of Doctors appointment and they can book the appointment through the app. The app will send notification to the user and doctor. The app will also show the history of the appointment.",
+  //   more: "Using React.js, Node.js, Express, and MongoDB",
+  //   projectLink: "",
+  //   link: "https://github.com/adrianhajdin/social_media_app",
+  // },
   //   {
   //     iconUrl: estate,
   //     theme: "btn-back-black",
@@ -293,18 +306,6 @@ export const projects = [
   //     projectLink: "",
   //     link: "https://github.com/adrianhajdin/projects_realestate",
   //   },
-  {
-    id: "cloneIphone15",
-    iconUrl: apple,
-    theme: "btn-back-blue",
-    name: "Landing page iPhone 15 pro",
-    description:
-      "Ongoing project where I am going to clone iPhone 15 pro web page to show case my skill for my fortfolio.",
-
-    more: "Built using React js, Three js, Framer Motion, and Tailwind CSS",
-    projectLink: "",
-    link: "https://github.com/mdMehediBillah/iPhone15",
-  },
 ];
 
 export const educations = [
