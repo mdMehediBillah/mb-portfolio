@@ -47,7 +47,11 @@ const HomeTwo = () => {
 
   return (
     <>
-      <Canvas shadows camera={{ position: [0, 100, 800], fov: 65 }}>
+      <Canvas
+        shadows
+        camera={{ position: [0, 100, 800], fov: 65 }}
+        className="z-20"
+      >
         <color attach="background" args={["#05050f"]} />
         <fog attach="fog" args={["#101010", 880, 1250]} />
         <Suspense>
