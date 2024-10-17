@@ -32,6 +32,12 @@ const BookLook = () => {
           these shelves, fostering a community of book sharing and exploration.
         </p>
       </div>
+      <p className="mt-4">
+        <strong className="text-yellow-300">MERN</strong> stack was used to
+        build the project, with data fetched from the OpenLibrary API. The
+        project also includes a user authentication system that allows users to
+        create an account and save books to their reading list.
+      </p>
       <div className="grid md:grid-cols-2 mt-32 gap-4">
         <div>
           <h3 className="text-2xl mb-4 font-semibold text-yellow-300">
@@ -129,7 +135,11 @@ const BookLook = () => {
         </div>
         <div>
           <div>
-            <img src={bookLook24_6} alt="bookLook24_6" />
+            <img
+              src={bookLook24_6}
+              alt="bookLook24_6"
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
       </div>
@@ -195,20 +205,19 @@ const BookLook = () => {
         <div className="flex gap-2">
           <button
             className="py-2 px-6 cursor-pointer bg-rose-500 rounded-lg text-slate-100 font-semibold"
-            onClick={() => {
-              alert(
-                "This project is not hosted yet. Please check the GitHub repository for more information."
-              );
-            }}
+            // onClick={() => {
+            //   alert(
+            //     "This project is not hosted yet. Please check the GitHub repository for more information."
+            //   );
+            // }}
           >
-            Visit Now
-            {/* <a
-              href="https://pokefightapp.netlify.app/"
+            <a
+              href="https://booklook24.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
               Visit Now
-            </a> */}
+            </a>
           </button>
           <button className="py-2 px-6 cursor-pointer bg-slate-600 rounded-lg text-slate-100 font-semibold">
             <a
