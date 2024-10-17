@@ -245,9 +245,9 @@ export const projects = [
     theme: "btn-back-yellow",
     name: "BookLook24",
     description:
-      "I developed a web application that tracks and notifies users of nearby bookshelves, helping them find locations where they can borrow or donate books.",
+      "BookLook24 is a full-stack web application that allows users to search for books, view book details, and save books to their reading list. The project has a clean and user-friendly interface, making it easy for users to navigate and find the books they are looking for.",
 
-    more: "This project was built using React, Node.js, Express, and MongoDB. It also features a Leaflet Maps API integration for location tracking.",
+    more: "MERN stack was used to build the project, with data fetched from the OpenLibrary API.",
     projectLink: "",
     link: "https://github.com/mdMehediBillah/BookLook24",
   },
