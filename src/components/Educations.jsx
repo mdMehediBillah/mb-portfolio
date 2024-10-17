@@ -13,14 +13,15 @@ const Educations = () => {
 
       <h1 className="head-text">
         <span className="blue-gradient_text drop-shadow font-semibold">
-          Educations
+          Education
         </span>
       </h1>
 
       <p className="text-slate-300 mt-2 leading-relaxed">
         Education is the passport to the future, for tomorrow belongs to those
-        who prepare for it today. Here are some of the educations I have
-        completed.
+        who prepare for it today. Here are some of my educational
+        qualifications. I am always open to learn new technical skills and
+        tools. Feel free to check them out!
       </p>
 
       <div className="grid md:grid-cols-1 lg:grid-cols-2 my-20 gap-16">
