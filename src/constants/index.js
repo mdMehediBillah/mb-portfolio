@@ -331,7 +331,7 @@ export const educations = [
     uni: "Hochschule Rhein-Waal, Kamp-Lintfort, Germany",
     date: "April 2016 - November 2019",
     points: [
-      "Studied in Cross-media-platform where student came from varies disciple as Computer Science, Product Design, Graphic Design anf more.",
+      "Studied in Cross-media-platform where student came from varies disciple as Computer Science, Product Design, Graphic Design and more.",
       "Human Oriented Design, Design thinking Process and UX/UI-Frameworks, Design System were strong points for the Degree",
       "Completed main project by UX research, Personas, user-flow, designed scalable design system, Low & Hi-Fi Wireframes and clickable Prototype",
 
@@ -361,7 +361,7 @@ export const educations = [
     points: [
       "Accessibility: How to Design for All",
       "Building Interactive JavaScrip Responsive Websites",
-      "Buil Web Application with Vue.js",
+      "Build Web Application with Vue.js",
       "Agile Methods for UX Design",
       "Conducting Usability Testing",
       "Scrum in software development",
