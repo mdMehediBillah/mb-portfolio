@@ -251,6 +251,17 @@ export const projects = [
     projectLink: "",
     link: "https://github.com/mdMehediBillah/BookLook24",
   },
+  {
+    id: "walby",
+    iconUrl: snapgram,
+    theme: "btn-back-pink",
+    name: "UX/UI Design for Walby App",
+    description:
+      "Designed the user interface and user experience for the Walby App, a location based social media platform that allows users to share photos, location to their friends. The project involved creating wireframes, user click-flow, and a design system to ensure a consistent and user-friendly experience.",
+    more: "Figma used to create the design, which was then implemented by the development team.",
+    projectLink: "",
+    link: "https://app.walbyapp.com/explore",
+  },
 
   {
     id: "pokeFight",
@@ -287,16 +298,6 @@ export const projects = [
   //   link: "https://github.com/mdMehediBillah/Meghna-webStore",
   // },
 
-  // {
-  //   iconUrl: snapgram,
-  //   theme: "btn-back-pink",
-  //   name: "Full Stack Doctor's Appointment App",
-  //   description:
-  //     "Ongoing project where user will see avability of Doctors appointment and they can book the appointment through the app. The app will send notification to the user and doctor. The app will also show the history of the appointment.",
-  //   more: "Using React.js, Node.js, Express, and MongoDB",
-  //   projectLink: "",
-  //   link: "https://github.com/adrianhajdin/social_media_app",
-  // },
   //   {
   //     iconUrl: estate,
   //     theme: "btn-back-black",

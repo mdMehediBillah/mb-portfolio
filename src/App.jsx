@@ -10,6 +10,7 @@ import {
   NotFound,
   PokeFight,
   Projects,
+  Walby,
 } from "./pages";
 import CloneApple15 from "./pages/CloneApple15";
 import HomeTwo from "./pages/HomeTwo";
@@ -30,6 +31,7 @@ const App = () => {
                   <Route path="/projects" element={<Projects />} />
                   <Route path="/contact" element={<Contact />} />
                   <Route path="/booklook" element={<BookLook />} />
+                  <Route path="/walby" element={<Walby />} />
                   <Route path="/meghna-store" element={<MeghnaStore />} />
                   <Route path="/pokeFight" element={<PokeFight />} />
                   <Route path="/cloneIphone15" element={<CloneApple15 />} />
