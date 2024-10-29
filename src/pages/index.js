@@ -7,6 +7,7 @@ import BookLook from "./BookLook";
 import MeghnaStore from "./MeghnaStore";
 import PokeFight from "./PokeFight";
 import CloneIphone15 from "./CloneApple15";
+import Walby from "./Walby";
 
 export {
   Home,
@@ -18,4 +19,5 @@ export {
   MeghnaStore,
   PokeFight,
   CloneIphone15,
+  Walby,
 };
