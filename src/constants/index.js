@@ -240,6 +240,17 @@ export const socialLinks = [
 
 export const projects = [
   {
+    id: "meghna-store",
+    iconUrl: threads,
+    theme: "btn-back-green",
+    name: "E-commerce: Meghna Store",
+    description:
+      "Developed a full-stack online store tailored for South-Asian people seeking different food options than those typically available in Europe. This demo project was built to showcase my skills for my portfolio. ",
+    more: "It was developed using Vue.js, Node.js, Express, and MongoDB, and includes a shopping cart feature that displays free shipping availability.",
+    projectLink: "",
+    link: "https://github.com/mdMehediBillah/Meghna-webStore",
+  },
+  {
     id: "booklook",
     iconUrl: bookLook,
     theme: "btn-back-yellow",
