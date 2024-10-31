@@ -2,20 +2,7 @@ import React from "react";
 import logo from "../assets/projectPhotos/meghnaStore/logo.png";
 import heroVideo from "../assets/projectPhotos/meghnaStore/heroVideo.mp4";
 import cartVideo from "../assets/projectPhotos/meghnaStore/cartVideo.mp4";
-import clickFlow2 from "../assets/projectPhotos/walby/clickFlow2.png";
-import clickFlow3 from "../assets/projectPhotos/walby/clickFlow3.png";
-import walbGif from "../assets/projectPhotos/walby/walbGif.gif";
-import walbyHero from "../assets/projectPhotos/walby/walbyHero.gif";
-import designSystemColor from "../assets/projectPhotos/walby/designSystemColor.png";
-import designSystemIcons from "../assets/projectPhotos/walby/designSystemIcons.png";
-import compititorAnalysis from "../assets/projectPhotos/walby/compititorAnalysis.png";
-import designSystemButtons from "../assets/projectPhotos/walby/designSystemButtons.png";
-import designSystemSpacing from "../assets/projectPhotos/walby/designSystemSpacing.png";
-import clickFlowTechnical from "../assets/projectPhotos/walby/clickFlowTechnical.png";
-import bookLook24_3 from "../../src/assets/projectPhotos/bookLook24/bookLook24_3.png";
-import bookLook24_4 from "../../src/assets/projectPhotos/bookLook24/bookLook24_4.png";
-import bookLook24_5 from "../../src/assets/projectPhotos/bookLook24/bookLook24_5.png";
-import bookLook24_6 from "../../src/assets/projectPhotos/bookLook24/bookLook24_6.jpg";
+import mobileVideo from "../assets/projectPhotos/meghnaStore/mobileVideo.mp4";
 
 import { CTA } from "../components";
 
@@ -194,6 +181,50 @@ const MeghnaStore = () => {
           className="rounded-lg w-full h-full object-cover"
         ></video>
       </div>
+      <div className="my-2  mt-32">
+        <div className="flex gap-4 ">
+          <div className="w-full">
+            <h3 className="text-2xl mb-4 font-semibold text-yellow-300">
+              Responsive Design
+            </h3>
+            <p>
+              The project is fully responsive and mobile-friendly. The user can
+              easily browse the website from any device and any screen size. The
+              website is fully optimized for mobile devices.
+            </p>
+            <h3 className="text-2xl mb-4 font-semibold text-yellow-300 mt-32">
+              Shopping Experience
+            </h3>
+            <p className="">
+              From the global search bar to the product showcases, every element
+              is designed to provide a seamless shopping experience. Users can
+              easily find products, explore curated sections, and navigate the
+              store with ease, enhancing their overall shopping experience. The
+              dynamic pricing and shipping information, along with the
+              filter-based browsing, make it easy for users to discover products
+              and make informed purchase decisions.
+            </p>
+            <h3 className="text-2xl mb-4 font-semibold text-yellow-300 mt-32">
+              Accessible and User-Friendly
+            </h3>
+            <p className="">
+              The project is designed with accessibility in mind, ensuring that
+              all users can easily navigate the store, find products, and
+              complete purchases. The user-friendly interface and intuitive
+              design elements make it easy for users to interact with the
+              website, enhancing the overall shopping experience.
+            </p>
+          </div>
+          <video
+            src={mobileVideo}
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="rounded-lg w-full h-full object-cover"
+          ></video>
+        </div>
+      </div>
       {/* <div className="grid md:grid-cols-2 mt-32 gap-4">
         <div>
           <h3 className="text-2xl mb-4 font-semibold text-yellow-300">
@@ -267,8 +298,8 @@ const MeghnaStore = () => {
 
       <div className="pt-12">
         <p className="text-lg  text-white text-center bg-slate-600 p-2 rounded-lg px-2">
-          It is a Demo project, not for commercial. To know more about the
-          project, please contact with me!
+          It is a Demo project. To know more about the project, please contact
+          with me!
         </p>
       </div>
 
