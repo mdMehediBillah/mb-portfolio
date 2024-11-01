@@ -1,5 +1,12 @@
 import React from "react";
 import logo from "../assets/projectPhotos/meghnaStore/logo.png";
+import responsive01 from "../assets/projectPhotos/meghnaStore/responsive01.png";
+import responsive02 from "../assets/projectPhotos/meghnaStore/responsive02.png";
+import responsive03 from "../assets/projectPhotos/meghnaStore/responsive03.png";
+import responsive04 from "../assets/projectPhotos/meghnaStore/responsive04.png";
+import responsive05 from "../assets/projectPhotos/meghnaStore/responsive05.png";
+import responsive06 from "../assets/projectPhotos/meghnaStore/responsive06.png";
+import responsive07 from "../assets/projectPhotos/meghnaStore/responsive07.png";
 import heroVideo from "../assets/projectPhotos/meghnaStore/heroVideo.mp4";
 import cartVideo from "../assets/projectPhotos/meghnaStore/cartVideo.mp4";
 import mobileVideo from "../assets/projectPhotos/meghnaStore/mobileVideo.mp4";
@@ -8,12 +15,14 @@ import { CTA } from "../components";
 
 const MeghnaStore = () => {
   return (
-    <section className="max-container">
+    <section className="md:max-container px-4 md:px-2">
       <div className=" flex flex-col items-center pb-8">
-        <span className="">
-          <img src={logo} alt="heroVideo" />
+        <span className="mb-2">
+          <img src={logo} alt="logo" className="w-44 md:w-full" />
         </span>
-        <span className="text-[20px]">An authentic South-Asian Store</span>
+        <span className="text-xs md:text-[20px] ">
+          An authentic South-Asian Store
+        </span>
       </div>
       <div className="my-2">
         <video
@@ -26,7 +35,7 @@ const MeghnaStore = () => {
         ></video>
       </div>
       <div className="grid md:grid-cols-2 mt-4 items-center gap-4">
-        <h3 className="text-5xl p-4 bg-rose-600 rounded-lg font-semibold">
+        <h3 className="text-3xl md:text-5xl text-center md:text-left p-4 bg-rose-600 rounded-lg font-semibold">
           YOUR AUTHENTIC SOUTH-ASIAN GROCERY STORE
         </h3>
         <p className=" leading-relaxed">
@@ -57,6 +66,41 @@ const MeghnaStore = () => {
         feasibility, ensuring the final product met both user expectations and
         performance standards.
       </p>
+      <h3 className="text-2xl mb-4 font-semibold text-yellow-300 mt-32">
+        Responsive layout:
+      </h3>
+      <div className="grid md:grid-cols-2  gap-4">
+        <span className="mb-2">
+          <img
+            src={responsive01}
+            alt="responsive01"
+            className="w-44 md:w-full rounded-lg"
+          />
+          <p className="mt-4">
+            <strong className="pr-2 font-semibold text-lg text-blue-300 ">
+              Resposive layout View:
+            </strong>
+            <br />
+            The layout is fully responsive and adapts to different screen sizes
+            and devices. The Photos show dynamic responsive layout views of the
+            product detail page.
+            <br />
+            <br />
+            On the desktop view, the product detail informations are displayed
+            in right side of the layout where the product image is displayed in
+            the left side of the layout. On the mobile view, the product detail
+            informations are displayed in the bottom of the layout where the
+            product image is displayed in the top of the layout.
+          </p>
+        </span>
+        <span className="mb-2">
+          <img
+            src={responsive02}
+            alt="responsive02"
+            className="w-44 md:w-full rounded-lg"
+          />
+        </span>
+      </div>
       <h3 className="text-2xl mb-4 font-semibold text-yellow-300 mt-32">
         Special Features:
       </h3>
@@ -168,9 +212,28 @@ const MeghnaStore = () => {
           </div>
         </div>
       </div>
+      <h3 className="text-2xl mb-4 font-semibold text-yellow-300 mt-32">
+        Dynamic cart layout:
+      </h3>
+      <div className="flex flex-col  gap-4">
+        <span className="mb-2">
+          <img
+            src={responsive03}
+            alt="responsive03"
+            className="w-44 md:w-full rounded-lg"
+          />
+        </span>
+        <span className="mb-2">
+          <img
+            src={responsive04}
+            alt="responsive04"
+            className="w-44 md:w-full rounded-lg"
+          />
+        </span>
+      </div>
       <div className="my-2">
-        <h3 className="text-2xl mb-4 font-semibold text-yellow-300 mt-32">
-          Dynamic Shopping Card
+        <h3 className="text-2xl mb-4 font-semibold text-yellow-300 mt-20">
+          Shopping Card dynamic works?
         </h3>
         <video
           src={cartVideo}
@@ -181,8 +244,35 @@ const MeghnaStore = () => {
           className="rounded-lg w-full h-full object-cover"
         ></video>
       </div>
+      <h3 className="text-2xl mb-4 font-semibold text-yellow-300 mt-32">
+        Hero section layout:
+      </h3>
+      <p className="pb-8">
+        The hero section is designed to grab the user’s attention and create a
+        memorable first impression. The dynamic layout showcases the store’s
+        offerings, highlighting key products and promotions to entice users to
+        explore further. The hero section is designed to be visually engaging,
+        with high-quality images and clear calls to action that encourage users
+        to browse the store and discover new products.
+      </p>
+      <div className="flex flex-col  gap-4">
+        <span className="mb-2">
+          <img
+            src={responsive06}
+            alt="responsive06"
+            className="w-44 md:w-full rounded-lg"
+          />
+        </span>
+        <span className="mb-2">
+          <img
+            src={responsive05}
+            alt="responsive05"
+            className="w-44 md:w-full rounded-lg"
+          />
+        </span>
+      </div>
       <div className="my-2  mt-32">
-        <div className="flex gap-4 ">
+        <div className="grid md:grid-cols-2 gap-4 ">
           <div className="w-full">
             <h3 className="text-2xl mb-4 font-semibold text-yellow-300">
               Responsive Design
@@ -192,7 +282,7 @@ const MeghnaStore = () => {
               easily browse the website from any device and any screen size. The
               website is fully optimized for mobile devices.
             </p>
-            <h3 className="text-2xl mb-4 font-semibold text-yellow-300 mt-32">
+            <h3 className="text-2xl mb-4 font-semibold text-yellow-300 mt-20">
               Shopping Experience
             </h3>
             <p className="">
@@ -204,7 +294,7 @@ const MeghnaStore = () => {
               filter-based browsing, make it easy for users to discover products
               and make informed purchase decisions.
             </p>
-            <h3 className="text-2xl mb-4 font-semibold text-yellow-300 mt-32">
+            <h3 className="text-2xl mb-4 font-semibold text-yellow-300 mt-20">
               Accessible and User-Friendly
             </h3>
             <p className="">
@@ -225,6 +315,30 @@ const MeghnaStore = () => {
           ></video>
         </div>
       </div>
+      <h3 className="text-2xl mb-4 font-semibold text-yellow-300 mt-32">
+        Global search bar:
+      </h3>
+      <p className="pb-8">
+        User can search products globally using product name, category, title,
+        or keywords. The search functionality instantly displays relevant
+        products based on user input, improving the discovery experience and
+        ensuring users quickly find what they need.
+        <br />
+        <br />
+        Below are the dynamic search results for the keyword "a2b". The search
+        is case-insensitive and the search results are displayed in real-time as
+        the user types in the search bar.
+      </p>
+      <div className="flex flex-col  gap-4">
+        <span className="mb-2">
+          <img
+            src={responsive07}
+            alt="responsive06"
+            className="w-44 md:w-full rounded-lg"
+          />
+        </span>
+      </div>
+
       {/* <div className="grid md:grid-cols-2 mt-32 gap-4">
         <div>
           <h3 className="text-2xl mb-4 font-semibold text-yellow-300">
