@@ -70,11 +70,11 @@ const MeghnaStore = () => {
         Responsive layout:
       </h3>
       <div className="grid md:grid-cols-2  gap-4">
-        <span className="mb-2">
+        <span className="mb-2 w-full">
           <img
             src={responsive01}
             alt="responsive01"
-            className="w-44 md:w-full rounded-lg"
+            className="w-full rounded-lg"
           />
           <p className="mt-4">
             <strong className="pr-2 font-semibold text-lg text-blue-300 ">
@@ -93,11 +93,11 @@ const MeghnaStore = () => {
             product image is displayed in the top of the layout.
           </p>
         </span>
-        <span className="mb-2">
+        <span className="mb-2 w-full">
           <img
             src={responsive02}
             alt="responsive02"
-            className="w-44 md:w-full rounded-lg"
+            className="w-full rounded-lg"
           />
         </span>
       </div>
@@ -220,14 +220,14 @@ const MeghnaStore = () => {
           <img
             src={responsive03}
             alt="responsive03"
-            className="w-44 md:w-full rounded-lg"
+            className="w-full rounded-lg"
           />
         </span>
         <span className="mb-2">
           <img
             src={responsive04}
             alt="responsive04"
-            className="w-44 md:w-full rounded-lg"
+            className="w-full rounded-lg"
           />
         </span>
       </div>
@@ -260,14 +260,14 @@ const MeghnaStore = () => {
           <img
             src={responsive06}
             alt="responsive06"
-            className="w-44 md:w-full rounded-lg"
+            className="w-full rounded-lg"
           />
         </span>
         <span className="mb-2">
           <img
             src={responsive05}
             alt="responsive05"
-            className="w-44 md:w-full rounded-lg"
+            className="w-full rounded-lg"
           />
         </span>
       </div>
@@ -334,7 +334,7 @@ const MeghnaStore = () => {
           <img
             src={responsive07}
             alt="responsive06"
-            className="w-44 md:w-full rounded-lg"
+            className="w-full rounded-lg"
           />
         </span>
       </div>
