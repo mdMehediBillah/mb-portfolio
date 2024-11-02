@@ -76,7 +76,9 @@ const Contact = () => {
       {alert.show && <Alert {...alert} />}
 
       <div className="flex-1 min-w-[50%] flex flex-col">
-        <h1 className="head-text blue-gradient_text">Get in Touch</h1>
+        <h1 className="head-text blue-gradient_text text-center">
+          Get in Touch
+        </h1>
 
         <form
           ref={formRef}
@@ -137,7 +139,13 @@ const Contact = () => {
         </form>
       </div>
 
-      <div className="lg:w-1/2 w-full lg:h-auto md:h-[550px] h-[350px]">
+      <div className="lg:w-1/2 w-full lg:h-auto md:h-[550px] h-[350px] relative">
+        <div>
+          <h1 className="absolute left-1/2 top-[16%] transform -translate-x-1/2 z-30">
+            {" "}
+            hey! i'am listining{" "}
+          </h1>
+        </div>
         <Canvas
           camera={{
             position: [0, 0, 5],
@@ -161,7 +169,7 @@ const Contact = () => {
               currentAnimation={currentAnimation}
               position={[0.5, 0.35, 0]}
               rotation={[12.629, -0.6, 0]}
-              scale={[0.5, 0.5, 0.5]}
+              scale={[0.42, 0.42, 0.42]}
             />
           </Suspense>
         </Canvas>

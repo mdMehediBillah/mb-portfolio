@@ -97,7 +97,7 @@ const About = () => {
                 }}
               >
                 <div>
-                  <h3 className="text-black text-xl font-poppins font-semibold">
+                  <h3 className="text-blue-500 text-xl font-poppins font-semibold">
                     {experience.title}
                   </h3>
                   <p
@@ -112,7 +112,7 @@ const About = () => {
                   {experience.points.map((point, index) => (
                     <li
                       key={`experience-point-${index}`}
-                      className="text-black-500/50 font-normal pl-1 text-sm"
+                      className="text-slate-600 font-normal pl-1 text-sm"
                     >
                       {point}
                     </li>

@@ -38,22 +38,15 @@ const Projects = () => {
               </div>
             </div>
 
-            <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-              <Tilt
-                options={{
-                  max: 45,
-                  scale: 1.05,
-                  speed: 500,
-                  perspective: 1000,
-                }} // Added perspective for 3D effect
-                className="mt-5 flex flex-col bg-gray-300 hover:shadow-lg transition-shadow duration-300 rounded-lg py-4 px-6"
-              >
-                <h4 className="text-2xl font-poppins font-semibold text-blue-600">
-                  {project.name}
-                </h4>
-                <p className="mt-2 text-slate-800">{project.description}</p>
-                <p className="mt-2 text-slate-800">{project.more}</p>
-              </Tilt>
+            <motion.div
+              variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+              className="mt-5 flex flex-col bg-slate-200 hover:shadow-lg transition-shadow duration-300 rounded-lg py-4 px-6 hover:bg-slate-50"
+            >
+              <h4 className="text-2xl font-poppins font-semibold text-blue-600">
+                {project.name}
+              </h4>
+              <p className="mt-2 text-slate-800">{project.description}</p>
+              <p className="mt-2 text-slate-800">{project.more}</p>
 
               <div className="mt-2 flex items-center gap-1 font-poppins justify-between">
                 <div className="bg-rose-500 py-1 px-3 rounded-md shadow w-full text-center">
