@@ -21,7 +21,7 @@ const MeghnaStore = () => {
           <img src={logo} alt="logo" className="w-44 md:w-full" />
         </span>
         <span className="text-xs md:text-[20px] ">
-          An authentic South-Asian Store
+          A demo e-commerce web store project
         </span>
       </div>
       <div className="my-2">
@@ -35,8 +35,8 @@ const MeghnaStore = () => {
         ></video>
       </div>
       <div className="grid md:grid-cols-2 mt-4 items-center gap-4">
-        <h3 className="text-3xl md:text-5xl text-center md:text-left p-4 bg-rose-600 rounded-lg font-semibold">
-          YOUR AUTHENTIC SOUTH-ASIAN GROCERY STORE
+        <h3 className="text-2xl md:text-5xl text-center md:text-left p-4 bg-rose-600 rounded-lg font-semibold ">
+          E-commerce Project with Vue js, Node js and MongoDB
         </h3>
         <p className=" leading-relaxed">
           This is a fullstack e-commerce project that I am developing by myself

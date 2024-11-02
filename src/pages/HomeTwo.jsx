@@ -14,9 +14,9 @@ const HomeTwo = () => {
       "#homeEnterBtn",
       {
         opacity: 0,
-        y: -100,
-        x: 100,
-        scale: 0.25,
+        y: -50,
+        x: 10,
+        scale: 0.75,
       },
       {
         opacity: 1,
@@ -25,6 +25,25 @@ const HomeTwo = () => {
         scale: 1,
         duration: 1,
         delay: 3,
+        ease: "power4.out",
+      }
+    );
+
+    gsap.fromTo(
+      "#welcomeText",
+      {
+        opacity: 0,
+        x: 50,
+        y: 10,
+        scale: 0.5,
+      },
+      {
+        opacity: 1,
+        x: 0,
+        y: 0,
+        scale: 1,
+        duration: 1,
+        delay: 2,
         ease: "power4.out",
       }
     );
@@ -69,6 +88,22 @@ const HomeTwo = () => {
 
   return (
     <>
+      <div
+        className="flex justify-center absolute left-1/2 top-[15%] transform -translate-x-1/2 z-30 opacity-0" // Set initial opacity to 0
+        id="welcomeText"
+      >
+        <h1
+          className=" font-semibold text-slate-100 px-2 text-center"
+          onClick={goToAboutPage}
+        >
+          <span className="text-xl text-yellow-400 ">
+            {" "}
+            Hi! welcome to my portfolio.
+          </span>
+          <br /> I'm a fullstack Developer and a UI/UX Designer. Click "Enter"
+          to know more about me.
+        </h1>
+      </div>
       <Canvas
         shadows
         camera={{ position: [0, 100, 800], fov: 65 }}
